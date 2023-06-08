@@ -2,3 +2,27 @@ body{
     background: #2ac125;
     background-image: url(restaurant.png);
 }
+header{
+    height:750px;
+    
+   
+    
+}
+footer{
+    height: 200px;
+    padding-top: 20px;
+         
+}
+
+.container-fluid.canvas{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.paddingx{
+    padding: 0px 400px ;
+}
