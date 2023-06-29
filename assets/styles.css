@@ -3,7 +3,8 @@ body{
     background-image: url(restaurant.png);
 }
 header{
-    height:750px;
+    min-height: 750px;
+    height: 100%;
     
    
     
@@ -25,4 +26,92 @@ footer{
 
 .paddingx{
     padding: 0px 400px ;
+}
+
+footer{
+    font-family: 'Lato', sans-serif;
+}
+
+.bio-title{
+width: 470px; 
+height: 200px; 
+margin-left: 100px;
+margin-top: 150px;
+}
+
+.bio-title p{
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif; color: white;
+    line-height: 50px
+    
+}
+.home-title p{
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif; color: white;
+}
+.box{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.height{
+    height:60%;
+    
+}
+
+.home-title2{
+    width: 470px; 
+    height: 200px; 
+    margin-right: 100px;
+    }
+.home-title2 p{
+        font-size: 28px;
+        font-family: 'Ubuntu', sans-serif; color: white;
+    }
+
+    .box2{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-end;
+    }
+
+#navbarNavDropdown{
+    margin-right: 30px; 
+}
+.dropdown-menu[data-bs-popper] {
+left: -44px;
+}
+
+.bio-image{
+    width: 75%;
+}
+.bio-image-container{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+}
+
+
+.dropdown-item.active{
+    background: #7b81ac;
+}
+
+.home-title{
+    width: 470px; 
+    height: 400px;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.home-box-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
 }
